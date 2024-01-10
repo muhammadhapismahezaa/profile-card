@@ -97,7 +97,7 @@ body {
   font-weight: 400;
   border: 3px solid #282828;
   cursor: pointer;
-  transition: all 0.4s ease-in;
+  transition: all 0.5s ease;
 }
 
 .buttons .button:hover {
@@ -136,4 +136,27 @@ body {
     font-size: 14px;
     padding: 6px 20px;
   }
+}
+
+.footer {
+  margin: 25px 0 0 0;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #282828;
+}
+
+.footer p a {
+  padding: 0 4px;
+  text-decoration: none;
+  color: #282828;
+  border: 3px double #282828;
+  border-radius: 16px;
+  transition: all 0.5s ease;
+}
+
+.footer p a:hover {
+  background-color: #282828;
+  color: #fff;
 }
