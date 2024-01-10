@@ -136,6 +136,10 @@ body {
     font-size: 14px;
     padding: 6px 20px;
   }
+
+  .footer p a {
+    font-size: 10px;
+  }
 }
 
 .footer {
